@@ -49,6 +49,7 @@ Produce architecture recommendations and create architecture diagrams using Draw
 - Create a target system architecture based on the derived characteristics.
 - Follow AWS Well-Architected Framework principles when preparing AWS-based recommendations.
 - If a local AWS Well-Architected reference document exists in the same folder, use it.
+- use other refernces in the same folder. Example Application Architecture.md files provides guidelines
 - Summarize the recommendation clearly and pragmatically.
 
 ### 5. Record Architecture Decisions
