@@ -1,10 +1,20 @@
 # Codex Prompt Templates
 
-Use these prompts to keep Codex focused on real code paths instead of broad repo-wide summarization.
+This file is now a shared reference library, not the primary per-story artifact.
 
-Replace bracketed placeholders before use.
+Recommended workflow:
+
+1. Create one story-specific file from `Developer-Request-Template.md`.
+2. Fill the business context, acceptance criteria, contract details, and developer impact hints there.
+3. Use the embedded prompt block in that file as the primary prompt for Codex.
+
+Use this file only as a fallback library of prompt patterns when a story needs a non-standard workflow such as service reverse engineering, dependency mapping, or cross-service planning.
 
 ---
+
+## Primary Rule
+
+For normal feature work or API changes, prefer a single story-specific request file over a separate prompt file.
 
 ## 1. Safe Enhancement In One Existing API
 
